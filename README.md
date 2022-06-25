@@ -1,5 +1,5 @@
 # RankWidthApproximate
-This program was written for the master's thesis *A simulated annealing method for computing rank-width*.
+This program was written for the master's thesis [*A simulated annealing method for computing rank-width*](https://doi.org/20.500.12932/41566).
 It implements a simulated annealing based algorithm for approximating rank-width, F4-rank-width and maximum matching-width,
 and outputs the corresponding decomposition in dot graph format.
 The program was tested on both Windows and Linux, and can make use of SIMD instructions (AVX2 recommended) and multiple cores.
@@ -112,6 +112,7 @@ When using this program for research work, please cite my thesis as follows:
     author = {Nouwt, Florian},
     year = {2022},
     month = May,
-    school = {Utrecht University}
+    school = {Utrecht University},
+    url = {https://doi.org/20.500.12932/41566}
 }
 ```
